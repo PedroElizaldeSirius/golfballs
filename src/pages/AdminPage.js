@@ -63,7 +63,11 @@ const AdminPage = () => {
         <Container>
             <ToastContainer />
             <Title>
-                <span style={{ color: '#ff8400' }}>GOLF</span> Vending Machine
+                <span style={{ color: '#ff8400' }}>GOLF </span>
+                {window.innerWidth < 600 && <br/>}
+                Vending 
+                {window.innerWidth < 600 && <br/>}
+                Machine
             </Title>
 
           <InputContainer>
